@@ -1,0 +1,47 @@
+.home-content {
+  flex-direction: column;
+  align-items: center;
+}
+.home-content .image {
+  padding: 15px 0px;
+  width: 100%;
+  text-align: center;
+}
+.home-content img {
+  width: 250px;
+}
+.home-text {
+  width: 100%;
+  padding: 5px 11px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 14px !important;
+}
+h1 {
+  font-size: 1.8rem !important;
+}
+.home-text h1 {
+  padding: 0px;
+  letter-spacing: 2px;
+}
+.home-text h4 {
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+.home-text .btn {
+  margin-top: 5px;
+}
+.tag-content {
+  flex-wrap: wrap;
+}
+.foot-content {
+  flex-wrap: wrap;
+}
+.foot-logo,
+.main-links,
+.support,
+.icons {
+  margin: 10px;
+}

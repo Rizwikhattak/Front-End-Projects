@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&family=Bree+Serif&family=Lato:wght@300&family=Open+Sans&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bree Serif", serif;
+  background-color: #e5e5fd;
+  line-height: 25px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 103px 10px;
+}
+.img {
+  padding: 10px 50px;
+}
+.img img {
+  border-radius: 60%;
+  height: 310px;
+}
+.heading {
+  padding: 10px 85px;
+  display: flex;
+  flex-direction: column;
+}
+.heading h1 {
+  font-size: 3.1rem;
+}
+.heading h3 {
+  padding: 10px;
+  font-size: 1.5rem;
+  /* display: inline-block; */
+  align-self: flex-end;
+}
+.data {
+  padding: 10px 60px;
+}
+.data h1,
+.data h3 {
+  padding: 10px 0px;
+}
+.data ul {
+  padding: 10px 15px;
+}

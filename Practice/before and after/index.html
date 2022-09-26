@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Before & after pseudo selector</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+      }
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Baloo 2", cursive;
+      }
+      header::before {
+        content: "";
+        background: url("https://source.unsplash.com/user/c_v_r") no-repeat
+          center center fixed;
+        background-size: cover;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+      }
+      .container ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .container li {
+        list-style: none;
+        margin: 18px 16px;
+      }
+      .container li a {
+        text-decoration: none;
+        color: white;
+      }
+      section {
+        /* border: 2px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 230px;
+        padding: 30px;
+        margin: 108px 185px;
+      }
+      section h1 {
+        font-size: 3rem;
+      }
+      section p {
+        text-align: center;
+        margin-top: 15px;
+        line-height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <h1>Welcome to Coding</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga magni
+        facere, nam sapiente non temporibus praesentium ut nostrum impedit.
+        Nesciunt impedit recusandae id, tempore excepturi at facere dolores
+        nostrum obcaecati quos incidunt ex eius non esse numquam. Impedit, rerum
+        error.
+      </p>
+    </section>
+  </body>
+</html>

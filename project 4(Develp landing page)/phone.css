@@ -1,0 +1,39 @@
+.dev-content {
+  padding: 75px 70px;
+  line-height: 30px;
+}
+.dev-content h1 {
+  font-size: 2rem;
+}
+.dev-content h3 {
+  font-size: 1rem;
+}
+.work-content h1 {
+  font-size: 2.8rem;
+}
+.boxes {
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  height: 1203px;
+}
+
+.web-content h3 {
+  font-size: 1.2rem;
+}
+.box-item {
+  width: 45.33%;
+  /* height: 200px; */
+}
+.contact-me,
+.about-me {
+  padding: 28px 11px;
+}
+.contact-content h1 {
+  font-size: 2.8rem;
+}
+.contact-content h3 {
+  font-size: 0.8rem;
+}
+.contact-content p {
+  font-size: 0.6rem;
+}

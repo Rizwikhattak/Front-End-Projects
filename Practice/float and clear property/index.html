@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allignment</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+      }
+
+      .container {
+        background-color: lightblue;
+        border: 5px solid burlywood;
+        width: 900px;
+        margin: 20px auto;
+        height: 400px;
+      }
+      .items {
+        border: 5px solid grey;
+        margin: 10px 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      #fruit {
+        float: left;
+        width: 48%;
+      }
+      #computer {
+        float: right;
+        width: 48%;
+      }
+      #stationary {
+        clear: both;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Shop</h1>
+      <div id="fruit" class="items">
+        <h2>Fruits</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, sit
+          voluptatibus. Neque animi aliquid officia omnis tenetur? Incidunt ex
+          in hic sunt voluptas, dolore cupiditate eaque aperiam odit minus.
+          Voluptate.
+        </p>
+      </div>
+      <div id="computer" class="items">
+        <h2>Computer</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, sit
+          voluptatibus. Neque animi aliquid officia omnis tenetur? Incidunt ex
+          in hic sunt voluptas, dolore cupiditate eaque aperiam odit minus.
+          Voluptate.
+        </p>
+      </div>
+      <div id="stationary" class="items">
+        <h2>Stationarys</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, sit
+          voluptatibus. Neque animi aliquid officia omnis tenetur? Incidunt ex
+          in hic sunt voluptas, dolore cupiditate eaque aperiam odit minus.
+          Voluptate.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

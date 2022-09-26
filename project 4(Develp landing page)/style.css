@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+#developer::before {
+  content: "";
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: url("developer.png") no-repeat center center/cover;
+}
+.dev-content {
+  height: 100vh;
+  color: white;
+  letter-spacing: 7px;
+  padding: 50px 201px;
+}
+.dev-content .hi {
+  display: inline-block;
+}
+.dev-content h3 {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.dev-content h1 {
+  font-size: 4.6rem;
+  font-weight: bold;
+}
+.work-content {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  align-items: center;
+  align-content: center;
+  height: 233px;
+  background-color: black;
+  color: white;
+}
+.work-content h1 {
+  display: inline-block;
+  font-size: 5rem;
+}
+
+.boxes {
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-item {
+  transition: all 0.3s;
+}
+.box-item:hover {
+  transform: scale(1.05);
+}
+.box-item {
+  /* border: 2px solid black; */
+  width: 33.33%;
+  height: 356px;
+  margin: 10px 45px;
+  box-shadow: 12px 7px 12px 2px #8e8e8e;
+  border-radius: 14px;
+}
+.web-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.web-content h3 {
+  padding-top: 10px;
+  font-size: 1.7rem;
+}
+.web-content p {
+  padding: 10px 10px;
+}
+.box-item img {
+  width: 100%;
+}
+.contact-content {
+  display: flex;
+
+  color: white;
+}
+.contact-me {
+  background-color: #515603;
+}
+.about-me {
+  background-color: #722300;
+}
+.contact-me,
+.about-me {
+  width: 50%;
+  padding: 28px 42px;
+}
+
+.contact-me h1,
+.about-me h1 {
+  font-size: 4rem;
+  padding: 10px 0px;
+}
+.contact-me h3 {
+  display: inline-block;
+}
+.contact-me .info {
+  display: inline-block;
+}
+
+.contact-content p {
+  font-size: 1rem;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

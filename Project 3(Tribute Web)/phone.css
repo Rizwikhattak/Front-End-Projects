@@ -1,0 +1,11 @@
+.content {
+  flex-direction: column;
+  padding: 73px 10px;
+}
+.heading {
+  padding: 10px 27px;
+}
+.heading h1 {
+  /* padding: 10px 10px; */
+  font-size: 1.4rem;
+}
